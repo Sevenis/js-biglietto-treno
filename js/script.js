@@ -3,10 +3,10 @@ var eta = parseInt(prompt('Quanti anni hai?'));
 var costoBiglietto = (km * 0.21);
 console.log(costoBiglietto);
 if (eta < 18) {
-    var costoBiglietto *= 0.8;
+    costoBiglietto *= 0.8;
     console.log(costoBiglietto);
 } else if (eta > 65) {
-    var costoBiglietto *= 0.6;
+    costoBiglietto *= 0.6;
     console.log(costoBiglietto);
 }
 
